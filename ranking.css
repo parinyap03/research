@@ -1,0 +1,87 @@
+/* container */
+body .container{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex; /* Use flexbox to align children in a row */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* child-1 */
+.child-1 {
+    flex: 1; /* Takes up more space */
+    background-color: #D9D9D9;
+
+    
+
+}
+.child-1 p{
+    text-align: center;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;  
+    padding: 5%;
+}
+.menu,.menu-l {
+    list-style: none;
+    padding: 5%;
+    margin: 0;
+}
+
+.menu > .menu-l-m {
+    font-weight: bold;
+}
+.list-m{
+    font-weight: bolder;
+    border-bottom: 2px solid #ee4f1d;
+    margin-top: 3%;
+}
+.menu-l-m{
+    font-weight: lighter;
+    margin: 3%;
+}
+.list-m a,.menu-l-m a {
+    color: black;
+    text-decoration: none;
+}
+.list-m a:hover,.menu-l-m a:hover {
+    color: #ee4f1d;
+}
+/* end child-1 */
+
+/* child-2 */
+.child-2 {
+    flex: 3; /*Takes up less space */
+    width: 100%;
+}
+h1 {
+    padding: 1em;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    padding: 5%;
+    margin-inline: 15%;
+
+}
+table tbody tr{
+    border-bottom: 1px black solid;
+}
+table thead{
+    border-bottom: 1px black solid;
+}
+th{
+    padding: 5%;
+}
+td {
+    padding: 5%;
+}
+/* end child-2 */

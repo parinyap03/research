@@ -1,0 +1,106 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+/* infor */
+.infor {
+    margin-top: 10%;
+    padding: 5%;
+    /* width: 33em; */
+    height: 1.25em;
+  }
+  
+  .infor .text-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.5em;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  /* searchbox */
+  .searchbox{
+    display: flex;
+    align-items: center;
+  }
+  /* dropdown */
+  .searchbox>.search01:nth-child(1){
+    margin-left: 5%;
+  }
+  .searchbox>.search01:nth-child(2){
+    
+    margin-left: 0;
+  }
+  label{
+    border: #000000 1px solid;
+    padding: 0.5em;
+    }
+  .search01 label p{
+    color: #3463AE;
+    padding: 2px;
+  }
+  .search01 label i{
+    color:#3463AE;
+    left: 100%;
+    margin-left: 7em;
+  }
+  
+    .search01 label .form-control{
+    border: none;
+  }
+  
+  .advsearch a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.75rem;
+  }
+  /* searchdoc */
+  .search02{
+    display: block;
+    position: relative;
+    padding-left: 10%;
+    margin-top: -1.5rem;
+    }
+
+    .search02 input{
+        width: 65em;
+     height: 6.2em;
+     text-indent: 25px;
+     border: 1px #000000 solid;
+    }
+    .search02 input::placeholder{
+        color: #3463AE;
+    }
+
+    .search02 input:focus{
+     box-shadow: none;
+     border: 2px solid #EE4F1D;
+    }
+
+    .search02 .fa-search{
+     position: absolute;
+    }
+   
+    .search02 button{
+     position: absolute;
+     top: 7em;
+     left: 100%;
+     height: 50px;
+     width: 110px;
+     background: #EE4F1D;
+     color: #ffffff;
+     border: #EE4F1D 1px solid;
+    }
+    .search02 button:active{
+        background-color: #EE4F1D;
+        border: #EE4F1D solid 1px;
+    }
+    .search02 button:hover{
+        background-color: #EE4F1D;
+        border: 1px #EE4F1D solid;
+    }
+    .search02 button i{
+        color: #ffffff;
+    }

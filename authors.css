@@ -1,0 +1,129 @@
+/* author information */
+.flexcontainer{
+  text-align: left;
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 5%;
+  display:inline-block;
+  /* background-color:#000000; */
+}
+.flexcontainer .author-img {
+  background-color: #3463AE;
+  display: inline-block;
+  width: 15% ;
+
+}
+.flexcontainer .side{
+  display: inline-block;
+
+}
+.flexcontainer .author-img img{
+  width: 100%;
+}
+.flexcontainer .text .name{
+  font-size: 2em;
+}
+.flexcontainer .text .text-wrapper-5 a{
+  padding-top: 0%;
+  font-weight: 100;
+  color: #3463AE;
+  text-decoration: none;
+}
+.flexcontainer .text .text-wrapper-7{
+  padding-top: 15%;
+}
+.flexcontainer .text-wrapper-8{
+  left: 10%;
+  margin: 5%;
+  bottom: 10%;
+  padding-bottom: 10%;
+}
+
+/* follow button */
+.flexcontainer .followbutton-wrapper {
+  background-color: #FFD0C1 ;
+  color: #000000;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin: 5%;
+  border-radius: 10%;
+}
+/* end follow button */
+/* end flexcontainer */
+/* end author information*/
+
+
+/* container */
+.container{
+  width: 100%;
+  margin: 0;
+  text-align: right;
+  display: inline-block;
+}
+.container .text-wrapper-11{
+  display: inline-block;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+.container .text-wrapper-12{
+  margin-left: 5%;
+  border-left: #A0A0A0 1px solid;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: inline-block;
+}
+/* end container */
+
+/* graph */
+.graph{
+  width: 100%;
+  padding: 2%;
+}
+.graph .text-wrapper-13{
+  padding-left: 5%;
+  font-size: 2em;
+}
+
+/* bar graph */
+.graph .group-3{
+  padding: 5%;
+  padding-left: 15%;
+}
+.graph .group-3 .overlap-3,.graph .group-3 .overlap-4{
+  text-align: right;
+}
+/* end bar graph */
+
+/* qtr */
+/* end qtr */
+
+/* list-public */
+/* .list-public{
+  background-color: chartreuse;
+} */
+.list-public .span-wrapper-1{
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid #000000;
+}
+.list-public .overlap-10{
+  padding: 1em;
+}
+.list-public .overlap-12{
+  padding: 1em;
+}
+.list-public .overlap-10 .flexcontainer-3,.list-public .overlap-12 .flexcontainer-2{
+  display: inline-block;
+  margin: 1em;
+  width: 80%;
+}
+.list-public  .overlap-10 .overlap-11,.list-public .overlap-12 .overlap-13{
+  display: inline-block;
+  right: 100%;
+}
+/* end list-public */
+
+/* end graph */

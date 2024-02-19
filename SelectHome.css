@@ -1,0 +1,118 @@
+/* container */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+body .container{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex; /* Use flexbox to align children in a row */
+  width: 100%;
+  height: 100vh;
+}
+.container .parent{
+  background-color: #3463AE;
+}
+
+
+
+/* child-1 */
+.child-1 {
+  flex: 1; /* Takes up more space */
+  background-color: #D9D9D9;
+  width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  overflow: auto;
+
+}
+.child-1 a{
+  text-align: center;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 0.75em;
+  letter-spacing: 0;
+  line-height: normal;  
+  padding: 5%;
+  text-decoration: none;
+}
+.child-1 .group{
+  text-align: center;
+  margin: 3%;
+}
+.child-1  .element{
+  background-color: #FFD0C1;
+  color: #000000;
+  width: fit-content;
+  height: 100%;
+  border-radius: 10%;;
+  padding: 5%;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.menu {
+  list-style: none;
+  padding: 5%;
+  margin: 0;
+}
+
+.list-m{
+  font-weight: bolder;
+  border-bottom: 2px solid #ee4f1d;
+  margin-top: 5%;
+  padding: 5%;
+}
+/* end child-1 */
+
+/* child-2 */
+.child-2 {
+  flex: 3; /*Takes up less space */
+  width: 150%;
+  padding: 5%;
+  right: 150%;
+  overflow: auto; 
+}
+.search02{
+  display: block;
+  position: relative;
+  padding-left: 10%;
+  margin-top: -1.5rem;
+  
+  text-wrap: wrap;
+  }
+  .search02 input{
+ text-indent: 25px;
+ border: 1px #000000 solid;
+ padding: 2%;
+ text-wrap: wrap;
+ width: 100%;
+}
+.search02 input::placeholder{
+    color: #3463AE;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  padding: 5%;
+  margin-inline: 15%;
+
+}
+table tbody tr{
+  border-bottom: 1px black solid;
+}
+table thead{
+  border-bottom: 1px black solid;
+}
+th{
+  padding: 5%;
+}
+td {
+  padding: 5%;
+}
+/* end child-2 */
